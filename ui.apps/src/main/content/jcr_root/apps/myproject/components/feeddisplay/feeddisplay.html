@@ -1,0 +1,18 @@
+<div>
+    <div data-sly-use.model="com.myproject.core.models.FeedDisplayModel" >
+        <table style="border: 1px solid black;">
+            <tr style="border: 1px solid black;">
+                <td  style="border: 1px solid black ;"><b>Title</b></td>
+                <td style="border: 1px solid black ;"><b>Description</b></td>
+                <td  style="border: 1px solid black ;"><b>Publish Date</b></td>
+            </tr>
+            <sly data-sly-list="${model.items}">
+                <tr style="border: 1px solid black;">
+                    <td  style="border: 1px solid black ;">${item.title}</td>
+                    <td style="border: 1px solid black ;">${item.description}</td>
+                    <td  style="border: 1px solid black ;">${item.pubDate}</td>
+                </tr>
+            </sly>
+        </table>
+    </div>
+</div>

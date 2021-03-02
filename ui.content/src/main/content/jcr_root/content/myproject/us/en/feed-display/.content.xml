@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-01T23:39:51.381+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myproject/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Feed Display"
+        sling:resourceType="myproject/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/container">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="myproject/components/container"
+                    layout="responsiveGrid">
+                    <feeddisplay
+                        jcr:created="{Date}2021-03-01T23:17:51.155+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-01T23:39:51.371+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myproject/components/feeddisplay"
+                        feedUrl="https://www.nba.com/bucks/rss.xml"
+                        itemCount="5">
+                        <authoredItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                description="COVID-19 vaccine is already available on our website soon. For more details, please check below"
+                                pubDate="{Date}2021-03-01T00:00:00.000+01:00"
+                                title="vaccine"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                description="All new iPhone12 is set to hit the market"
+                                pubDate="{Date}2021-02-03T00:00:00.000+01:00"
+                                title="iPhone12"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                description="Click on Read More to get more insights for free membership of Prime Membership"
+                                pubDate="{Date}2021-03-19T00:00:00.000+01:00"
+                                title="Prime Membership"/>
+                        </authoredItems>
+                    </feeddisplay>
+                </container>
+                <title
+                    jcr:lastModified="{Date}2021-03-01T23:34:27.230+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Display Feed from RSS source"
+                    sling:resourceType="myproject/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
