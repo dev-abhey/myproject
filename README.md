@@ -70,5 +70,6 @@ The project comes with the auto-public repository configured. To setup the repos
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
 	
 ## Testing Feed Display Component
-Please use below page for testing the RSS Feed display component-related
+Please use below page for testing the RSS Feed display component-related:
+
 	http://localhost:4502/editor.html/content/myproject/us/en/feed-display.html
