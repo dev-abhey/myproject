@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-03T10:59:07.364+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myproject/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home Page"
+        sling:resourceType="myproject/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/container">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="myproject/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2021-03-03T09:12:40.641+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-03T09:14:20.008+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myproject/components/text"
+                        text="&lt;p>This is the home page, authored at the master-en level.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <image
+                        jcr:created="{Date}2021-03-03T09:13:17.954+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-03T09:13:40.162+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myproject/components/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd-events/wknd-events.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="true"/>
+                    <text_1940536730
+                        jcr:created="{Date}2021-03-03T09:54:15.257+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-03T10:59:07.362+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myproject/components/text"
+                        text="&lt;p>&lt;b>Below is the section for custom Text box and Image wherein the live copies can add their own Text and Image.&lt;/b>&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </container>
+                <title
+                    jcr:lastModified="{Date}2021-03-01T23:34:27.230+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Home Page"
+                    sling:resourceType="myproject/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+    <page1/>
+    <page2/>
+</jcr:root>
