@@ -1,8 +1,8 @@
 # Project Details
 
-Project Name - myproject
+* Project Name is **myproject**
 
-Maven archetype - Maven archetype 23 used
+* Maven archetype 23 is used
 
 
 
