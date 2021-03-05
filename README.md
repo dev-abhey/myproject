@@ -4,11 +4,17 @@
 
 * Maven archetype 23 is used
 
+* Apache Maven 3.6.3 
+
 
 
 ## Build and Deploy
 
-mvn clean install -PautoInstallPackage
+<code> 
+   
+  mvn clean install -PautoInstallPackage 
+
+</code>
 
 ## Testing
 
