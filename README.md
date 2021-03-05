@@ -10,11 +10,10 @@
 
 ## Build and Deploy
 
-<code> 
-   
-  mvn clean install -PautoInstallPackage 
+      git clone https://github.com/developer-avenger/myproject.git
 
-</code>
+      mvn clean install -PautoInstallPackage 
+
 
 ## Testing
 
